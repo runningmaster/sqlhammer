@@ -1,0 +1,7 @@
+TibSHDDLCommentator                       BITMAP "..\Images\DDLCommentator.bmp"
+
+TibSHDDLCommentatorPaletteAction          BITMAP "..\Images\DDLCommentator.bmp"
+TibSHDDLCommentatorFormAction             BITMAP "..\Images\Form_Description.bmp"
+TibSHDDLCommentatorToolbarAction_Run      BITMAP "..\Images\Button_Run.bmp"
+TibSHDDLCommentatorToolbarAction_Pause    BITMAP "..\Images\Button_Pause.bmp"
+TibSHDDLCommentatorToolbarAction_Refresh  BITMAP "..\Images\Button_Refresh.bmp"

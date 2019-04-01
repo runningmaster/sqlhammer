@@ -1,0 +1,40 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = SQLHammer_Common_Design.bpl SQLHammer_Common_Develop.bpl \
+  SQLHammer_Common_Guide.bpl SQLHammer_Common_DataExport.bpl \
+  SQLHammer_Common_Package.bpl SQLHammer_Demo_Package.bpl SQLHammer32.exe
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+SQLHammer_Common_Design.bpl: Common\Packages\SQLHammer_Common_Design.dpk
+  $(DCC)
+
+SQLHammer_Common_Develop.bpl: Common\Packages\SQLHammer_Common_Develop.dpk
+  $(DCC)
+
+SQLHammer_Common_Guide.bpl: Common\Packages\SQLHammer_Common_Guide.dpk
+  $(DCC)
+
+SQLHammer_Common_DataExport.bpl: Common\Packages\SQLHammer_Common_DataExport.dpk
+  $(DCC)
+
+SQLHammer_Demo_Package.bpl: Demo\Packages\SQLHammer_Demo_Package.dpk
+  $(DCC)
+
+SQLHammer_Common_Package.bpl: Pack\Packages\SQLHammer_Common_Package.dpk
+  $(DCC)
+
+SQLHammer32.exe: Environment\SQLHammer32.dpr
+  $(DCC)
+
+

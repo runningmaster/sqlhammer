@@ -1,0 +1,20 @@
+; { **************************************************************************** }
+; {                                                                              }
+; { SQL HAMMER, Copyright (c) 2004 Metadata Forge                                }
+; { WWW: http://www.metadataforge.com, http://www.sqlhammer.com                  }
+; { Contact: support@sqlhammer.com                                               }
+; {                                                                              }
+; { **************************************************************************** }
+
+; $Id: fbKW.1.txt,v 1.1 2007/01/03 08:11:35 buzz Exp $
+
+[FUNCTIONS]
+IIF=(<condition>, <val_true>, <val_false>)
+SUBSTRING=( <val>)
+[KEYWORDS]
+FIRST=[FIRST x][SKIP y]
+SKIP=[FIRST x][SKIP y]
+;Charsets and collates
+CS_CZ=
+ISO8859_2=
+PXW_HUN=

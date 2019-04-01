@@ -1,0 +1,3 @@
+TSHWELCOME            BITMAP "..\Images\Welcome.bmp"
+TSHUSEGUIDE           BITMAP "..\Images\UseGuide.bmp"
+TSHDEVGUIDE           BITMAP "..\Images\DevGuide.bmp"

@@ -1,0 +1,64 @@
+package BlazeTop_Common_Package;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'BlazeTop Component Package'}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  vcl,
+  SynEdit_R7,
+  vclx,
+  vcljpg,
+  TntUnicodeVcl_R70,
+  EhLib70,
+  dbrtl,
+  vcldb;
+
+contains
+  pSHSynEdit in '..\SynEdit\pSHSynEdit.pas',
+  pSHHighlighter in '..\SynEdit\pSHHighlighter.pas',
+  pSHComponentsRegister in '..\SynEdit\pSHComponentsRegister.pas',
+  pSHCompletionProposal in '..\SynEdit\pSHCompletionProposal.pas',
+  pSHIntf in '..\Intf\pSHIntf.pas',
+  pSHAutoComplete in '..\SynEdit\pSHAutoComplete.pas',
+  pSHParametersHint in '..\SynEdit\pSHParametersHint.pas',
+  pSHCommon in '..\SynEdit\pSHCommon.pas',
+  pSHConsts in '..\Common\pSHConsts.pas',
+  pSHFindTextFrm in '..\SynEdit\pSHFindTextFrm.pas' {pSHFindTextForm},
+  pSHReplaceTextFrm in '..\SynEdit\pSHReplaceTextFrm.pas' {pSHReplaceTextForm},
+  pSHConfirmReplaceFrm in '..\SynEdit\pSHConfirmReplaceFrm.pas' {pSHConfirmReplaceForm},
+  pSHGotoLineNumberFrm in '..\SynEdit\pSHGotoLineNumberFrm.pas' {pSHGotoLineNumberForm},
+  pSHQStrings in '..\Common\pSHQStrings.pas',
+  pSHSqlTxtRtns in '..\Common\pSHSqlTxtRtns.pas',
+  pSHStrUtil in '..\Common\pSHStrUtil.pas',
+  pSHRegExpr in '..\Common\pSHRegExpr.pas',
+  pSHDBSynEdit in '..\SynEdit\pSHDBSynEdit.pas',
+  pSHNetscapeSplitter in '..\Common\pSHNetscapeSplitter.pas',
+  pBTGridEhExt in '..\DBGridEh\pBTGridEhExt.pas',
+  pBTGridToExcel in '..\DBGridEh\pBTGridToExcel.pas',
+  OpenOfficeWrapper in '..\DBGridEh\OpenOfficeWrapper.pas',
+  DBGridToOO in '..\DBGridEh\DBGridToOO.pas';
+
+end.

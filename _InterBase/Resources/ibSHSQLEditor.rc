@@ -1,0 +1,23 @@
+TibSHSQLEditor                   BITMAP "..\Images\SQLEditor.bmp"
+
+TibSHSQLEditorPaletteAction      BITMAP "..\Images\SQLEditor.bmp"
+
+FORM_STATISTICS             BITMAP  "..\Images\Form_QueryStatistics.bmp"
+
+
+TibSHSQLEditorFormAction_SQLText          BITMAP  "..\Images\Form_DMLText.bmp"
+TibSHSQLEditorFormAction_QueryResults     BITMAP  "..\Images\Form_Data_Grid.bmp"
+TibSHSQLEditorFormAction_BlobEditor       BITMAP  "..\Images\Form_Data_Blob.bmp"
+TibSHSQLEditorFormAction_DataForm         BITMAP  "..\Images\Form_Data_VCL.bmp"
+TibSHSQLEditorFormAction_QueryStatistics  BITMAP  "..\Images\Form_QueryStatistics.bmp"
+TibSHSQLEditorFormAction_DDLText          BITMAP  "..\Images\Form_DDLText.bmp"
+
+
+TibSHSQLEditorToolbarAction_PrevQuery        BITMAP  "..\Images\Button_Query_Prev.bmp"
+TibSHSQLEditorToolbarAction_NextQuery        BITMAP  "..\Images\Button_Query_Next.bmp"
+TibSHSQLEditorToolbarAction_Run              BITMAP  "..\Images\Button_Run.bmp"
+TibSHSQLEditorToolbarAction_RunAndFetchAll   BITMAP  "..\Images\Button_RunAndFetch.bmp"
+TibSHSQLEditorToolbarAction_Prepare          BITMAP  "..\Images\Button_RunPrepare.bmp"
+TibSHSQLEditorToolbarAction_Commit           BITMAP  "..\Images\Button_TrCommit.bmp"
+TibSHSQLEditorToolbarAction_Rollback         BITMAP  "..\Images\Button_TrRollback.bmp"
+

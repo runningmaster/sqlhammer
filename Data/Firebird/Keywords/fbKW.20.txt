@@ -1,0 +1,29 @@
+; { **************************************************************************** }
+; {                                                                              }
+; { SQL HAMMER, Copyright (c) 2004 Metadata Forge                                }
+; { WWW: http://www.metadataforge.com, http://www.sqlhammer.com                  }
+; { Contact: support@sqlhammer.com                                               }
+; {                                                                              }
+; { **************************************************************************** }
+
+; $Id: fbKW.20.txt,v 1.1 2007/01/03 08:11:35 buzz Exp $
+
+[DATA_TYPES]
+BIGINT=
+[FUNCTIONS]
+IIF=(<condition>, <val_true>, <val_false>)
+SUBSTRING=( <val>)
+[KEYWORDS]
+CASE=
+COALESCE=
+FIRST=[FIRST x][SKIP y]
+SKIP=[FIRST x][SKIP y]
+RECREATE=
+CURRENT_CONNECTION=
+CURRENT_TRANSACTION=
+INSERTING=
+UPDATING=
+DELETING=
+ROW_COUNT=
+;Charsets and collates
+UTF8

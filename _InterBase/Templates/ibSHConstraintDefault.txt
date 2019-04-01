@@ -1,0 +1,48 @@
+/* === PRIMARY KEY =============================
+ALTER TABLE {TABLE_NAME}
+ADD CONSTRAINT {PRIMARY_KEY_NAME}
+PRIMARY KEY (ID);
+*/
+
+/* === UNIQUE ==================================
+ALTER TABLE {TABLE_NAME}
+ADD CONSTRAINT {UNIQUE_NAME}
+UNIQUE (...);
+*/
+
+/* === FOREIGN KEY ==============================
+ALTER TABLE {TABLE_NAME}
+ADD CONSTRAINT {FOREIGN_KEY_NAME}
+FOREIGN KEY (...)
+REFERENCES {REF_TABLE_NAME} (ID)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION;
+*/
+
+/* === CHECK CONSTRAINT =========================
+ALTER TABLE {TABLE_NAME}
+ADD CONSTRAINT {CHECK_NAME}
+CHECK (...);
+*/
+
+/* Syntax ======================================================================
+
+ALTER TABLE table <operation> [, <operation> …];
+
+<operation> = {ADD <col_def>
+  | ADD <tconstraint>
+  | ALTER [COLUMN] column_name <alt_col_clause>
+  | DROP col
+  | DROP CONSTRAINT constraint}
+
+  ...
+  
+<tconstraint> = [CONSTRAINT constraint]
+  {{PRIMARY KEY | UNIQUE} ( col [, col …])
+  | FOREIGN KEY ( col [, col …]) REFERENCES other_table [( other_col [, other_col …])]
+    [ON DELETE {NO ACTION|CASCADE|SET DEFAULT|SET NULL}]
+    [ON UPDATE {NO ACTION|CASCADE|SET DEFAULT|SET NULL}]
+  | CHECK ( <search_condition>)}
+  
+  ...
+============================================================================= */

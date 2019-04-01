@@ -1,0 +1,14 @@
+DECLARE FILTER {NAME}
+  INPUT_TYPE 0
+  OUTPUT_TYPE 0
+ENTRY_POINT 'entryname' MODULE_NAME 'modulename';
+
+
+/* Syntax ======================================================================
+
+DECLARE FILTER filter
+  INPUT_TYPE subtype
+  OUTPUT_TYPE subtype
+ENTRY_POINT 'entryname' MODULE_NAME 'modulename';
+
+============================================================================= */

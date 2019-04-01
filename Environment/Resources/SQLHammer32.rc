@@ -1,0 +1,13 @@
+TSHBRANCHINFO                 BITMAP "..\Images\SQLHAMMER.bmp"
+
+TIDESHSYSTEMOPTIONS           BITMAP "..\Images\System.bmp"
+
+TSHDBGRIDGENERALOPTIONS       BITMAP "..\Images\Grid.bmp"
+TSHDBGRIDDISPLAYOPTIONS       BITMAP "..\Images\Display.bmp"
+TSHDBGRIDCOLOROPTIONS         BITMAP "..\Images\Color.bmp"
+TSHDBGRIDFORMATOPTIONS        BITMAP "..\Images\Format.bmp"
+
+TSHEDITORGENERALOPTIONS       BITMAP "..\Images\Editor.bmp"
+TSHEDITORDISPLAYOPTIONS       BITMAP "..\Images\Display.bmp"
+TSHEDITORCOLOROPTIONS         BITMAP "..\Images\Color.bmp"
+TSHEDITORCODEINSIGHTOPTIONS   BITMAP "..\Images\CodeInsight.bmp"

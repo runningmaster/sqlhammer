@@ -1,0 +1,11 @@
+TibSHDDLFinder                          BITMAP "..\Images\DDLFinder.bmp"
+
+
+TibSHDDLFinderPaletteAction             BITMAP "..\Images\DDLFinder.bmp"
+TibSHDDLFinderFormAction                BITMAP "..\Images\Form_Search_Results.bmp"
+TibSHDDLFinderToolbarAction_Run         BITMAP "..\Images\Button_Run.bmp"
+TibSHDDLFinderToolbarAction_Pause       BITMAP "..\Images\Button_Pause.bmp"
+TibSHDDLFinderToolbarAction_NextResult  BITMAP "..\Images\Button_Arrow_Down.bmp"
+TibSHDDLFinderToolbarAction_PrevResult  BITMAP "..\Images\Button_Arrow_Top.bmp"
+
+Form_Search_Results                     BITMAP "..\Images\Form_Search_Results.bmp"

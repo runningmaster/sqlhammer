@@ -1,0 +1,98 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = SQLHammer_InterBase_Design.bpl \
+  SQLHammer_InterBase_Driver_FIBPlus_LM.dll \
+  SQLHammer_InterBase_Driver_FIBPlus.dll SQLHammer_InterBase_Driver_IBX.dll \
+  SQLHammer_InterBase_Common.bpl SQLHammer_InterBase_Connections.bpl \
+  SQLHammer_InterBase_DDLObjects.bpl SQLHammer_InterBase_SQLEditor.bpl \
+  SQLHammer_InterBase_DMLHistory.bpl SQLHammer_InterBase_DDLHistory.bpl \
+  SQLHammer_InterBase_SQLMonitor.bpl SQLHammer_InterBase_SQLPlayer.bpl \
+  SQLHammer_InterBase_DDLCommentator.bpl SQLHammer_InterBase_DDLWizards.bpl \
+  SQLHammer_InterBase_DDLFinder.bpl SQLHammer_InterBase_DDLExtractor.bpl \
+  SQLHammer_InterBase_DDLGrantor.bpl SQLHammer_InterBase_DMLExporter.bpl \
+  SQLHammer_InterBase_UserManager.bpl SQLHammer_InterBase_ServicesAPI.bpl \
+  SQLHammer_InterBase_PSQLDebugger.bpl SQLHammer_InterBase_ExpressHelp.bpl \
+  SQLHammer_InterBase_TXTLoader.bpl
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+SQLHammer_InterBase_Design.bpl: Packages\SQLHammer_InterBase_Design.dpk
+  $(DCC)
+
+SQLHammer_InterBase_Driver_FIBPlus_LM.dll: Packages\SQLHammer_InterBase_Driver_FIBPlus_LM.dpr
+  $(DCC)
+
+SQLHammer_InterBase_Driver_FIBPlus.dll: Packages\SQLHammer_InterBase_Driver_FIBPlus.dpr
+  $(DCC)
+
+SQLHammer_InterBase_Driver_IBX.dll: Packages\SQLHammer_InterBase_Driver_IBX.dpr
+  $(DCC)
+
+SQLHammer_InterBase_Common.bpl: Packages\SQLHammer_InterBase_Common.dpk
+  $(DCC)
+
+SQLHammer_InterBase_Connections.bpl: Packages\SQLHammer_InterBase_Connections.dpk
+  $(DCC)
+
+SQLHammer_InterBase_DDLObjects.bpl: Packages\SQLHammer_InterBase_DDLObjects.dpk
+  $(DCC)
+
+SQLHammer_InterBase_SQLEditor.bpl: Packages\SQLHammer_InterBase_SQLEditor.dpk
+  $(DCC)
+
+SQLHammer_InterBase_DMLHistory.bpl: Packages\SQLHammer_InterBase_DMLHistory.dpk
+  $(DCC)
+
+SQLHammer_InterBase_DDLHistory.bpl: Packages\SQLHammer_InterBase_DDLHistory.dpk
+  $(DCC)
+
+SQLHammer_InterBase_SQLMonitor.bpl: Packages\SQLHammer_InterBase_SQLMonitor.dpk
+  $(DCC)
+
+SQLHammer_InterBase_SQLPlayer.bpl: Packages\SQLHammer_InterBase_SQLPlayer.dpk
+  $(DCC)
+
+SQLHammer_InterBase_DDLFinder.bpl: Packages\SQLHammer_InterBase_DDLFinder.dpk
+  $(DCC)
+
+SQLHammer_InterBase_DDLExtractor.bpl: Packages\SQLHammer_InterBase_DDLExtractor.dpk
+  $(DCC)
+
+SQLHammer_InterBase_DDLGrantor.bpl: Packages\SQLHammer_InterBase_DDLGrantor.dpk
+  $(DCC)
+
+SQLHammer_InterBase_DMLExporter.bpl: Packages\SQLHammer_InterBase_DMLExporter.dpk
+  $(DCC)
+
+SQLHammer_InterBase_UserManager.bpl: Packages\SQLHammer_InterBase_UserManager.dpk
+  $(DCC)
+
+SQLHammer_InterBase_ServicesAPI.bpl: Packages\SQLHammer_InterBase_ServicesAPI.dpk
+  $(DCC)
+
+SQLHammer_InterBase_DDLWizards.bpl: Packages\SQLHammer_InterBase_DDLWizards.dpk
+  $(DCC)
+
+SQLHammer_InterBase_DDLCommentator.bpl: Packages\SQLHammer_InterBase_DDLCommentator.dpk
+  $(DCC)
+
+SQLHammer_InterBase_PSQLDebugger.bpl: Packages\SQLHammer_InterBase_PSQLDebugger.dpk
+  $(DCC)
+
+SQLHammer_InterBase_ExpressHelp.bpl: Packages\SQLHammer_InterBase_ExpressHelp.dpk
+  $(DCC)
+
+SQLHammer_InterBase_TXTLoader.bpl: Packages\SQLHammer_InterBase_TXTLoader.dpk
+  $(DCC)
+
+

@@ -1,0 +1,11 @@
+TibSHSQLHistory                       BITMAP "..\Images\SQLHistory.bmp"
+
+TibSHSQLHistoryPaletteAction          BITMAP "..\Images\SQLHistory.bmp"
+TibSHSQLHistoryFormAction             BITMAP "..\Images\Form_SQLText.bmp"
+TibSHSQLHistoryToolbarAction_Run      BITMAP "..\Images\Button_Run.bmp"
+TibSHSQLHistoryToolbarAction_Pause    BITMAP "..\Images\Button_Pause.bmp"
+TibSHSQLHistoryToolbarAction_Region   BITMAP "..\Images\Button_Tree.bmp"
+TibSHSQLHistoryToolbarAction_Refresh  BITMAP "..\Images\Button_Refresh.bmp"
+TibSHSQLHistoryToolbarAction_Save     BITMAP "..\Images\Button_Save.bmp"
+
+Form_SQL_Statements                   BITMAP "..\Images\Form_SQLText.bmp"

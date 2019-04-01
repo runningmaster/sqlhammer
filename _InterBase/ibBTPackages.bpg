@@ -1,0 +1,97 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = BlazeTop_InterBase_Design.bpl \
+  BlazeTop_InterBase_Driver_FIBPlus_LM.dll BlazeTop_InterBase_Driver_FIBPlus.dll \
+  BlazeTop_InterBase_Driver_IBX.dll BlazeTop_InterBase_Common.bpl \
+  BlazeTop_InterBase_Connections.bpl BlazeTop_InterBase_DDLObjects.bpl \
+  BlazeTop_InterBase_SQLEditor.bpl BlazeTop_InterBase_DMLHistory.bpl \
+  BlazeTop_InterBase_DDLHistory.bpl BlazeTop_InterBase_SQLMonitor.bpl \
+  BlazeTop_InterBase_SQLPlayer.bpl BlazeTop_InterBase_DDLCommentator.bpl \
+  BlazeTop_InterBase_DDLWizards.bpl BlazeTop_InterBase_DDLFinder.bpl \
+  BlazeTop_InterBase_DDLExtractor.bpl BlazeTop_InterBase_DDLGrantor.bpl \
+  BlazeTop_InterBase_DMLExporter.bpl BlazeTop_InterBase_UserManager.bpl \
+  BlazeTop_InterBase_ServicesAPI.bpl BlazeTop_InterBase_PSQLDebugger.bpl \
+  BlazeTop_InterBase_ExpressHelp.bpl BlazeTop_InterBase_TXTLoader.bpl
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+BlazeTop_InterBase_Design.bpl: Packages\BlazeTop_InterBase_Design.dpk
+  $(DCC)
+
+BlazeTop_InterBase_Driver_FIBPlus_LM.dll: Packages\BlazeTop_InterBase_Driver_FIBPlus_LM.dpr
+  $(DCC)
+
+BlazeTop_InterBase_Driver_FIBPlus.dll: Packages\BlazeTop_InterBase_Driver_FIBPlus.dpr
+  $(DCC)
+
+BlazeTop_InterBase_Driver_IBX.dll: Packages\BlazeTop_InterBase_Driver_IBX.dpr
+  $(DCC)
+
+BlazeTop_InterBase_Common.bpl: Packages\BlazeTop_InterBase_Common.dpk
+  $(DCC)
+
+BlazeTop_InterBase_Connections.bpl: Packages\BlazeTop_InterBase_Connections.dpk
+  $(DCC)
+
+BlazeTop_InterBase_DDLObjects.bpl: Packages\BlazeTop_InterBase_DDLObjects.dpk
+  $(DCC)
+
+BlazeTop_InterBase_SQLEditor.bpl: Packages\BlazeTop_InterBase_SQLEditor.dpk
+  $(DCC)
+
+BlazeTop_InterBase_DMLHistory.bpl: Packages\BlazeTop_InterBase_DMLHistory.dpk
+  $(DCC)
+
+BlazeTop_InterBase_DDLHistory.bpl: Packages\BlazeTop_InterBase_DDLHistory.dpk
+  $(DCC)
+
+BlazeTop_InterBase_SQLMonitor.bpl: Packages\BlazeTop_InterBase_SQLMonitor.dpk
+  $(DCC)
+
+BlazeTop_InterBase_SQLPlayer.bpl: Packages\BlazeTop_InterBase_SQLPlayer.dpk
+  $(DCC)
+
+BlazeTop_InterBase_DDLFinder.bpl: Packages\BlazeTop_InterBase_DDLFinder.dpk
+  $(DCC)
+
+BlazeTop_InterBase_DDLExtractor.bpl: Packages\BlazeTop_InterBase_DDLExtractor.dpk
+  $(DCC)
+
+BlazeTop_InterBase_DDLGrantor.bpl: Packages\BlazeTop_InterBase_DDLGrantor.dpk
+  $(DCC)
+
+BlazeTop_InterBase_DMLExporter.bpl: Packages\BlazeTop_InterBase_DMLExporter.dpk
+  $(DCC)
+
+BlazeTop_InterBase_UserManager.bpl: Packages\BlazeTop_InterBase_UserManager.dpk
+  $(DCC)
+
+BlazeTop_InterBase_ServicesAPI.bpl: Packages\BlazeTop_InterBase_ServicesAPI.dpk
+  $(DCC)
+
+BlazeTop_InterBase_DDLWizards.bpl: Packages\BlazeTop_InterBase_DDLWizards.dpk
+  $(DCC)
+
+BlazeTop_InterBase_DDLCommentator.bpl: Packages\BlazeTop_InterBase_DDLCommentator.dpk
+  $(DCC)
+
+BlazeTop_InterBase_PSQLDebugger.bpl: Packages\BlazeTop_InterBase_PSQLDebugger.dpk
+  $(DCC)
+
+BlazeTop_InterBase_ExpressHelp.bpl: Packages\BlazeTop_InterBase_ExpressHelp.dpk
+  $(DCC)
+
+BlazeTop_InterBase_TXTLoader.bpl: Packages\BlazeTop_InterBase_TXTLoader.dpk
+  $(DCC)
+
+

@@ -1,0 +1,80 @@
+; { **************************************************************************** }
+; {                                                                              }
+; { SQL HAMMER, Copyright (c) 2004 Metadata Forge                                }
+; { WWW: http://www.metadataforge.com, http://www.sqlhammer.com                  }
+; { Contact: support@sqlhammer.com                                               }
+; {                                                                              }
+; { **************************************************************************** }
+
+; $Id: Firebird_Keywords_20.txt,v 1.1 2007/01/03 08:11:35 buzz Exp $
+;OCTET_LENGTH=(val)
+;CHAR_LENGTH=(val)
+;
+
+[DATA_TYPES]
+BIGINT=
+[FUNCTIONS]
+IIF=(<condition>, <val_true>, <val_false>)
+SUBSTRING=( <val>)
+
+
+BIT_LENGTH=(<val>)
+LOWER=(val)
+RDB$GET_CONTEXT=(<val>,<val>)
+RDB$SET_CONTEXT=(<val>,<val>,<val>)
+
+[KEYWORDS]
+CASE=
+COALESCE=
+RETURNING=
+FIRST=[FIRST x][SKIP y]
+SKIP=[FIRST x][SKIP y]
+RECREATE=
+CURRENT_CONNECTION=
+CURRENT_TRANSACTION=
+INSERTING=
+UPDATING=
+DELETING=
+ROW_COUNT=
+
+BLOCK=
+SEQUENCE=
+LEAVE=
+BREAK=
+COMMENT=
+CROSS=
+RESTART=
+
+LEADING=
+TRAILING=
+BOTH=
+
+;Charsets and collates
+CS_CZ=
+ISO8859_2=
+PXW_HUN=
+DOS737=
+DOS775=
+DOS858=
+DOS862=
+DOS864=
+DOS866=
+DOS869=
+ISO_HUN=
+ISO8859_13=
+ISO8859_3=
+ISO8859_4=
+ISO8859_5=
+ISO8859_6=
+ISO8859_7=
+ISO8859_8=
+ISO8859_9=
+WIN1251_UA=
+WIN1255=
+WIN1256=
+WIN1257=
+
+UTF8=
+KOI8R=
+KOI8U=
+WIN1258=

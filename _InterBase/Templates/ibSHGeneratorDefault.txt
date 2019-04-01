@@ -1,0 +1,10 @@
+CREATE GENERATOR {NAME};
+SET GENERATOR {NAME} TO 0;
+
+/* Syntax ======================================================================
+
+CREATE GENERATOR name;
+
+SET GENERATOR name TO int;
+
+============================================================================= */

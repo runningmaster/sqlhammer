@@ -1,0 +1,246 @@
+; { **************************************************************************** }
+; {                                                                              }
+; { SQL HAMMER, Copyright (c) 2004 Metadata Forge                                }
+; { WWW: http://www.metadataforge.com, http://www.sqlhammer.com                  }
+; { Contact: support@sqlhammer.com                                               }
+; {                                                                              }
+; { **************************************************************************** }
+
+; $Id: InterBase_Keyboards_Templates.txt,v 1.1 2007/01/03 08:11:35 buzz Exp $
+
+[-- | SQL HAMMER keyboard template]
+# = # - 1;
+
+[( | SQL HAMMER keyboard template]
+(|)
+
+[(* | SQL HAMMER keyboard template]
+/* | */
+
+[** | SQL HAMMER keyboard template]
+/*
+    |
+^^^^*/
+
+[.. | SQL HAMMER keyboard template]
+/* | */
+
+[/* | SQL HAMMER keyboard template]
+/* | */
+
+[// | SQL HAMMER keyboard template]
+/* | */
+
+[{ | SQL HAMMER keyboard template]
+/* | */
+
+[++ | SQL HAMMER keyboard template]
+# = # + 1;
+
+[AC | SQL HAMMER keyboard template]
+/* Changed by #Author #Date at #Time */
+
+[ADDC | SQL HAMMER keyboard template]
+alter table # add constraint |
+
+[ADDF | SQL HAMMER keyboard template]
+alter table # add |
+
+[ADN | SQL HAMMER keyboard template]
+and (|)
+
+[AND | SQL HAMMER keyboard template]
+and (|)
+
+[BG | SQL HAMMER keyboard template]
+begin
+   |
+end;[^
+
+[BW | SQL HAMMER keyboard template]
+between | and 
+
+[CH | SQL HAMMER keyboard template]
+char(|)
+
+[CNS | SQL HAMMER keyboard template]
+constraint |
+
+[CRDB | SQL HAMMER keyboard template]
+create "|" 
+user "SYSDBA" password ""
+DEFAULT CHARACTER SET WIN1251
+
+[CRDM | SQL HAMMER keyboard template]
+create domain # |;
+
+[CRT | SQL HAMMER keyboard template]
+create table | 
+(
+
+)
+
+[CT | SQL HAMMER keyboard template]
+count(|)
+
+[DCL | SQL HAMMER keyboard template]
+declare variable |;
+
+[DECLARE | SQL HAMMER keyboard template]
+declare variable |;
+
+[DLT | SQL HAMMER keyboard template]
+delete from #
+where 
+    ~{(    # = ) and
+}^^^^
+
+[DROPC | SQL HAMMER keyboard template]
+alter table # drop constraint |
+
+[DROPF | SQL HAMMER keyboard template]
+alter table # drop |
+
+[DT | SQL HAMMER keyboard template]
+delete from #
+where (|)
+
+[EXEC | SQL HAMMER keyboard template]
+execute procedure |
+
+[FK | SQL HAMMER keyboard template]
+foreign key (|) references #
+
+[FOR | SQL HAMMER keyboard template]
+for /* Iterate for # table */
+    select | 
+from #
+where ()
+into
+do begin
+
+end /* for # table */
+
+[GRANT | SQL HAMMER keyboard template]
+grant select, delete, insert, update on # to |
+
+[GRANTA | SQL HAMMER keyboard template]
+grant all on # to |
+
+[GRANTD | SQL HAMMER keyboard template]
+grant delete on # to |
+
+[GRANTI | SQL HAMMER keyboard template]
+grant insert on # to |
+
+[GRANTS | SQL HAMMER keyboard template]
+grant select on # to |
+
+[GRANTU | SQL HAMMER keyboard template]
+grant update on # to |
+
+[GRP | SQL HAMMER keyboard template]
+group by |
+
+[HAV | SQL HAMMER keyboard template]
+having |
+
+[IF | SQL HAMMER keyboard template]
+if (|) then
+
+[IFE | SQL HAMMER keyboard template]
+if | then begin /* if statement at */
+end
+else begin
+end; /* end if statement */
+
+[IFN | SQL HAMMER keyboard template]
+if not | then
+
+[IG | SQL HAMMER keyboard template]
+integer|
+
+[INST | SQL HAMMER keyboard template]
+insert into # (~{ #,}^)
+values (~{ ?#,}^)
+
+[IST | SQL HAMMER keyboard template]
+insert into # (~{ #,}^)
+values (~{ ,}^)
+
+[IT | SQL HAMMER keyboard template]
+insert into # (|)
+values ()
+
+[NM | SQL HAMMER keyboard template]
+numeric (15,3)|
+
+[NN | SQL HAMMER keyboard template]
+not null|
+
+[OR | SQL HAMMER keyboard template]
+or (|)
+
+[ORD | SQL HAMMER keyboard template]
+order by |
+
+[PK | SQL HAMMER keyboard template]
+primary key (|)
+
+[REF | SQL HAMMER keyboard template]
+references |
+
+[SI | SQL HAMMER keyboard template]
+smallint|
+
+[SLT | SQL HAMMER keyboard template]
+select
+   ~{#,
+}^^
+from #
+where (|)
+
+[ST | SQL HAMMER keyboard template]
+select | from #
+where ()
+
+[SU | SQL HAMMER keyboard template]
+suspend;
+
+[UDF | SQL HAMMER keyboard template]
+DECLARE EXTERNAL FUNCTION #
+|
+returns 
+entry_point ""
+module_name ""
+
+[UPDT | SQL HAMMER keyboard template]
+update #
+set
+    ~{# = ?#,
+}^^
+where (|)
+
+[UPT | SQL HAMMER keyboard template]
+update #
+set
+  ~{# = ,
+}^^
+where (|)
+
+[UT | SQL HAMMER keyboard template]
+update #
+set
+  |
+where ()
+
+[VC | SQL HAMMER keyboard template]
+varchar(|)
+
+[WHERE | SQL HAMMER keyboard template]
+where (|)
+
+[WHILE | SQL HAMMER keyboard template]
+while (|) do begin
+end
+

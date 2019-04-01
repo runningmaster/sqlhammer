@@ -1,0 +1,14 @@
+TibSHSQLScripter                           BITMAP "..\Images\SQLScripter.bmp"
+
+TibSHSQLScripterPaletteAction              BITMAP "..\Images\SQLScripter.bmp"
+TibSHSQLScripterFormAction                 BITMAP "..\Images\Form_SQLText.bmp"
+TibSHSQLScripterToolbarAction_Run          BITMAP "..\Images\Button_Run.bmp"
+TibSHSQLScripterToolbarAction_Pause        BITMAP "..\Images\Button_Pause.bmp"
+TibSHSQLScripterToolbarAction_Region       BITMAP "..\Images\Button_Tree.bmp"
+TibSHSQLScripterToolbarAction_Refresh      BITMAP "..\Images\Button_Refresh.bmp"
+TibSHSQLScripterToolbarAction_Open         BITMAP "..\Images\Button_Open.bmp"
+TibSHSQLScripterToolbarAction_Save         BITMAP "..\Images\Button_Save.bmp"
+TibSHSQLScripterToolbarAction_SaveAs       BITMAP "..\Images\Button_SaveAs.bmp"
+TibSHSQLScripterToolbarAction_RunFromFile  BITMAP "..\Images\Button_RunFromFile1.bmp"
+
+Form_SQL_Statements                        BITMAP "..\Images\Form_SQLText.bmp"

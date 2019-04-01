@@ -1,0 +1,11 @@
+TibSHUserManager                       BITMAP "..\Images\UserManager.bmp"
+TibSHUser                              BITMAP "..\Images\User.bmp"
+
+TibSHUserManagerPaletteAction          BITMAP "..\Images\UserManager.bmp"
+TibSHUserManagerFormAction             BITMAP "..\Images\User.bmp"
+TibSHUserManagerToolbarAction_Create   BITMAP "..\Images\Button_Create.bmp"
+TibSHUserManagerToolbarAction_Alter    BITMAP "..\Images\Button_Alter.bmp"
+TibSHUserManagerToolbarAction_Drop     BITMAP "..\Images\Button_Drop.bmp"
+TibSHUserManagerToolbarAction_Refresh  BITMAP "..\Images\Button_Refresh.bmp"
+
+Form_Users                             BITMAP "..\Images\User.bmp"

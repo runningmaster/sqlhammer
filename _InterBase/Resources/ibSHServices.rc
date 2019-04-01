@@ -1,0 +1,36 @@
+TibSHServerProps          BITMAP "..\Images\ServerProps.bmp" 
+TibSHServerLog            BITMAP "..\Images\Log.bmp"
+TibSHServerConfig         BITMAP "..\Images\Server.bmp"
+TibSHServerLicense        BITMAP "..\Images\Server.bmp"
+TibSHDatabaseShutdown     BITMAP "..\Images\Shutdown.bmp"
+TibSHDatabaseOnline       BITMAP "..\Images\Online.bmp"
+TibSHDatabaseBackup       BITMAP "..\Images\Backup.bmp"
+TibSHDatabaseRestore      BITMAP "..\Images\Restore.bmp"
+TibSHDatabaseStatistics   BITMAP "..\Images\Statistics.bmp"
+TibSHDatabaseProps        BITMAP "..\Images\DatabaseProps.bmp"
+TibSHDatabaseValidation   BITMAP "..\Images\Validation.bmp"
+TibSHDatabaseSweep        BITMAP "..\Images\Sweep.bmp"
+TibSHDatabaseMend         BITMAP "..\Images\Mend.bmp"
+TibSHTransactionRecovery  BITMAP "..\Images\TrRecovery.bmp"
+
+
+TibSHServerLogPaletteAction            BITMAP "..\Images\Log.bmp"
+TibSHServerPropsPaletteAction          BITMAP "..\Images\ServerProps.bmp" 
+TibSHDatabasePropsPaletteAction        BITMAP "..\Images\DatabaseProps.bmp"
+TibSHDatabaseStatisticsPaletteAction   BITMAP "..\Images\Statistics.bmp"
+TibSHDatabaseShutdownPaletteAction     BITMAP "..\Images\Shutdown.bmp"
+TibSHDatabaseOnlinePaletteAction       BITMAP "..\Images\Online.bmp"
+TibSHDatabaseBackupPaletteAction       BITMAP "..\Images\Backup.bmp"
+TibSHDatabaseRestorePaletteAction      BITMAP "..\Images\Restore.bmp"
+TibSHDatabaseValidationPaletteAction   BITMAP "..\Images\Validation.bmp"
+TibSHDatabaseSweepPaletteAction        BITMAP "..\Images\Sweep.bmp"
+TibSHDatabaseMendPaletteAction         BITMAP "..\Images\Mend.bmp"
+
+TibSHServiceFormAction                 BITMAP "..\Images\Form_Output.bmp"
+TibSHServiceToolbarAction_Run          BITMAP "..\Images\Button_Run.bmp"
+TibSHServiceToolbarAction_Open         BITMAP "..\Images\Button_Open.bmp"
+TibSHServiceToolbarAction_Save         BITMAP "..\Images\Button_Save.bmp"
+
+
+Form_Output                            BITMAP "..\Images\Form_Output.bmp"
+

@@ -1,0 +1,43 @@
+CREATE DOMAIN {NAME}
+AS INTEGER
+;
+
+
+/* Syntax ======================================================================
+
+CREATE DOMAIN domain [AS] < datatype>
+  [DEFAULT { literal | NULL | USER}]
+  [NOT NULL] [CHECK ( <dom_search_condition>)]
+  [COLLATE collation];
+
+< datatype> =
+  {SMALLINT|INTEGER|FLOAT|DOUBLE PRECISION}[ <array_dim>]
+  | {DATE|TIME|TIMESTAMP}[ <array_dim>]
+  | {DECIMAL | NUMERIC} [( precision [, scale])] [ <array_dim>]
+  | {CHAR | CHARACTER | CHARACTER VARYING | VARCHAR} [( int)]
+  [ <array_dim>] [CHARACTER SET charname]
+  | {NCHAR | NATIONAL CHARACTER | NATIONAL CHAR}
+  [VARYING] [( int)] [ <array_dim>]
+  | BLOB [SUB_TYPE { int | subtype_name}] [SEGMENT SIZE int]
+  [CHARACTER SET charname]
+  | BLOB [( seglen [, subtype])]
+
+<array_dim> = [[x:]y [, [x:]y …]]
+
+<dom_search_condition> = {
+  VALUE <operator> value
+  | VALUE [NOT] BETWEEN value AND value
+  | VALUE [NOT] LIKE value [ESCAPE value]
+  | VALUE [NOT] IN ( value [ , value …])
+  | VALUE IS [NOT] NULL
+  | VALUE [NOT] CONTAINING value
+  | VALUE [NOT] STARTING [WITH] value
+  | ( <dom_search_condition>)
+  | NOT <dom_search_condition>
+  | <dom_search_condition> OR <dom_search_condition>
+  | <dom_search_condition> AND <dom_search_condition>
+  }
+
+< operator> = {= | < | > | <= | >= | !< | !> | <> | !=}
+
+============================================================================= */

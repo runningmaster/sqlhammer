@@ -1,0 +1,16 @@
+DECLARE EXTERNAL FUNCTION {NAME}
+  INTEGER
+RETURNS
+  INTEGER BY VALUE
+ENTRY_POINT 'entryname' MODULE_NAME 'modulename';
+
+
+/* Syntax ======================================================================
+
+DECLARE EXTERNAL FUNCTION name
+  [ datatype | CSTRING ( int) [, datatype | CSTRING ( int) …]]
+RETURNS
+  { datatype [BY VALUE] | CSTRING ( int) [FREE_IT] | PARAMETER <int> }
+ENTRY_POINT 'entryname' MODULE_NAME 'modulename';
+
+============================================================================= */

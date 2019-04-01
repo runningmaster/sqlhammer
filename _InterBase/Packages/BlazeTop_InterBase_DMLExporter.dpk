@@ -1,0 +1,39 @@
+package BlazeTop_InterBase_DMLExporter;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'BlazeTop InterBase and Firebird DML Exporter Components '}
+{$DESIGNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  BlazeTop_InterBase_Common;
+
+contains
+  ibSHDMLExporter in '..\Components\ibSHDMLExporter.pas',
+  ibSHDMLExporterFrm in '..\Forms\ibSHDMLExporterFrm.pas' {ibSHDMLExporterForm},
+  ibSHDMLExporterEditors in '..\Editors\ibSHDMLExporterEditors.pas',
+  ibSHDMLExporterTreeEditors in '..\Editors\ibSHDMLExporterTreeEditors.pas',
+  ibSHDMLExporterActions in '..\Actions\ibSHDMLExporterActions.pas';
+
+end.

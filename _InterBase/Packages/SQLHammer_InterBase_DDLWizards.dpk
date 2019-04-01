@@ -1,0 +1,52 @@
+package SQLHammer_InterBase_DDLWizards;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'SQLHammer InterBase and Firebird DDL Wizard Components'}
+{$DESIGNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  SQLHammer_InterBase_Common;
+
+contains
+  ibSHDDLWizardEditors in '..\Editors\ibSHDDLWizardEditors.pas',
+  ibSHDDLWizard in '..\Components\ibSHDDLWizard.pas',
+  ibSHWizardExceptionFrm in '..\Forms\ibSHWizardExceptionFrm.pas' {ibSHWizardExceptionForm},
+  ibSHDDLWizardCustomFrm in '..\Forms\ibSHDDLWizardCustomFrm.pas',
+  ibSHWizardRoleFrm in '..\Forms\ibSHWizardRoleFrm.pas' {ibSHWizardRoleForm},
+  ibSHWizardGeneratorFrm in '..\Forms\ibSHWizardGeneratorFrm.pas' {ibSHWizardGeneratorForm},
+  ibSHWizardFilterFrm in '..\Forms\ibSHWizardFilterFrm.pas' {ibSHWizardFilterForm},
+  ibSHWizardFunctionFrm in '..\Forms\ibSHWizardFunctionFrm.pas' {ibSHWizardFunctionForm},
+  ibSHWizardTriggerFrm in '..\Forms\ibSHWizardTriggerFrm.pas' {ibSHWizardTriggerForm},
+  ibSHWizardProcedureFrm in '..\Forms\ibSHWizardProcedureFrm.pas' {ibSHWizardProcedureForm},
+  ibSHWizardViewFrm in '..\Forms\ibSHWizardViewFrm.pas' {ibSHWizardViewForm},
+  ibSHWizardTableFrm in '..\Forms\ibSHWizardTableFrm.pas' {ibSHWizardTableForm},
+  ibSHWizardIndexFrm in '..\Forms\ibSHWizardIndexFrm.pas' {ibSHWizardIndexForm},
+  ibSHWizardDomainFrm in '..\Forms\ibSHWizardDomainFrm.pas' {ibSHWizardDomainForm},
+  ibSHWizardConstraintFrm in '..\Forms\ibSHWizardConstraintFrm.pas' {ibSHWizardConstraintForm},
+  ibSHWizardChangeFrm in '..\Forms\ibSHWizardChangeFrm.pas' {ibSHWizardChangeForm},
+  ibSHWizardFieldFrm in '..\Forms\ibSHWizardFieldFrm.pas' {ibSHWizardFieldForm},
+  ibSHDDLWizardActions in '..\Actions\ibSHDDLWizardActions.pas';
+
+end.

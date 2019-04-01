@@ -1,0 +1,27 @@
+ALTER TABLE {TABLE_NAME}
+ADD {NAME} INTEGER
+;
+
+
+/* Syntax ======================================================================
+
+
+ALTER TABLE table <operation> [, <operation> …];
+
+<operation> = {ADD <col_def>
+  | ADD <tconstraint>
+  | ALTER [COLUMN] column_name <alt_col_clause>
+  | DROP col
+  | DROP CONSTRAINT constraint}
+
+  ...
+  
+<col_def> = col {< datatype> | COMPUTED [BY] (< expr>) | domain}
+  [DEFAULT { literal | NULL | USER}]
+  [NOT NULL]
+  [ <col_constraint>]
+  [COLLATE collation]
+
+  ...
+
+============================================================================= */

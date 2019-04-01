@@ -1,0 +1,22 @@
+SQLHammer is high-performance tool for rapid database development and administration (RDDA) which includes common integrated development environment (IDE), registered custom components based on Borland Package Library (BPL) mechanism and Open Tools API (OTA) written on Delphi language.
+
+SQLHammer's main features:
+
+   * Supports Borland InterBase® 4-7.x and Firebird 1.x SQL Server
+   * The newest paradigm of IDE construction
+   * Considerably new representation of database objects, such as Domain, Table, Index, View, Procedure, Trigger, Generator, Exception, Function, Filter and Role for work
+   * Easy-to-use the component tools, such as: SQL Editor, DML History, DDL History, DDL Finder, DDL Grantor, SQL Player, FIB Monitor, IBX Monitor, DDL Extractor, DML Exporter, DDL Commentator, DDL Wizards, TXT Loader
+   * Complete support of InterBase/Firebird Services API in the component tools, such as: User Manager, Server Log, Server Properties, Database Properties, Database Statistics, Database Shutdown, Database Online, Database Backup, Database Restore, Database Validation, Database Sweep and Database Mend
+   * Extralight grouping of objects in contextual working areas related to connections
+   * Hypernavigation between the objects in the IDE
+   * Powerful customizable mechanisms of Highlighter and Code Insight in text editors
+   * Provides an opportunity to easy expand or even replace functionality using Open Tools API
+   * And also many other features which make the work more productive, efficient, faster and easier, than ever before...
+
+SQLHammer system requirements:
+
+    * Windows 98/98SE/ME/NT4.0/2000/XP/2003
+ 
+--
+Copyright (C) 2004-2005 Metadata Forge. All rights reserved.
+http://metadataforge.com 

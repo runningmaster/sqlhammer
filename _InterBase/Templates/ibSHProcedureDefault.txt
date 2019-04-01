@@ -1,0 +1,48 @@
+CREATE PROCEDURE {NAME} (
+  INPUT_PARAM INTEGER
+)
+RETURNS (
+  OUTPUT_PARAM INTEGER
+)
+AS
+  DECLARE VARIABLE VAR_PARAM INTEGER;
+BEGIN
+  /* <procedure_body> */
+END
+;
+
+
+/* Syntax ======================================================================
+
+CREATE PROCEDURE name
+  [( param < datatype> [, param < datatype> …])]
+  [RETURNS < datatype> [, param < datatype> …])]
+  AS <procedure_body> [ terminator]
+  
+<procedure_body> =
+  [ <variable_declaration_list>]
+  < block>
+  
+<variable_declaration_list> =
+  DECLARE VARIABLE var < datatype>;
+  [DECLARE VARIABLE var < datatype>; …]
+  
+< block> =
+BEGIN
+  < compound_statement>
+  [< compound_statement> …]
+END
+
+< compound_statement> = {< block> | statement;}
+
+< datatype> = SMALLINT
+  | INTEGER
+  | FLOAT
+  | DOUBLE PRECISION
+  | {DECIMAL | NUMERIC} [( precision [, scale])]
+  | {DATE | TIME | TIMESTAMP)
+  | {CHAR | CHARACTER | CHARACTER VARYING | VARCHAR}
+  [( int)] [CHARACTER SET charname]
+  | {NCHAR | NATIONAL CHARACTER | NATIONAL CHAR} [VARYING] [( int)]
+
+============================================================================= */

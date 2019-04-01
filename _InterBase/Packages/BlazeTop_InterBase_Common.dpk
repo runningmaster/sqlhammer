@@ -1,0 +1,83 @@
+package BlazeTop_InterBase_Common;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'BlazeTop InterBase and Firebird Common Components'}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  BlazeTop_InterBase_Design,
+  BlazeTop_Common_Develop,
+  rtl,
+  vcl,
+  designide,
+  vclactnband,
+  vclx,
+  vcldb,
+  dbrtl,
+  EhLib70,
+  SynEdit_R7,
+  BlazeTop_Common_Package,
+  VirtualTreesD7,
+  TntUnicodeVcl_R70;
+
+contains
+  ibSHMessages in '..\Common\ibSHMessages.pas',
+  ibSHConsts in '..\Common\ibSHConsts.pas',
+  ibSHSQLs in '..\Common\ibSHSQLs.pas',
+  ibSHTool in '..\Components\ibSHTool.pas',
+  ibSHComponent in '..\Components\ibSHComponent.pas',
+  ibSHCommonEditors in '..\Editors\ibSHCommonEditors.pas',
+  ibSHValues in '..\Common\ibSHValues.pas',
+  ibSHComponentFrm in '..\Forms\ibSHComponentFrm.pas',
+  ibSHBranchInfo in '..\Common\ibSHBranchInfo.pas',
+  ibSHDDLParser in '..\Components\ibSHDDLParser.pas',
+  ibSHOptions in '..\Components\ibSHOptions.pas',
+  ibSHEditorRegistrator in '..\EditorTXT\ibSHEditorRegistrator.pas',
+  ibSHKeywordsManager in '..\EditorTXT\ibSHKeywordsManager.pas',
+  ibSHObjectNamesManager in '..\EditorTXT\ibSHObjectNamesManager.pas',
+  ibSHAutoComplete in '..\EditorTXT\ibSHAutoComplete.pas',
+  ibSHCodeNormalizer in '..\Components\ibSHCodeNormalizer.pas',
+  ibSHAutoReplace in '..\EditorTXT\ibSHAutoReplace.pas',
+  ibSHSimpleFieldListRetriever in '..\EditorTXT\ibSHSimpleFieldListRetriever.pas',
+  ibSHDDLFrm in '..\Forms\ibSHDDLFrm.pas' {ibBTDDLForm},
+  ibSHDataGridFrm in '..\Forms\ibSHDataGridFrm.pas' {ibSHDataGridForm},
+  ibSHFieldListRetriever in '..\EditorTXT\ibSHFieldListRetriever.pas',
+  ibSHRegExpesions in '..\EditorTXT\ibSHRegExpesions.pas',
+  ibSHProposalHintRetriever in '..\EditorTXT\ibSHProposalHintRetriever.pas',
+  ibSHTxtRtns in '..\Common\ibSHTxtRtns.pas',
+  ibSHStrUtil in '..\Common\ibSHStrUtil.pas',
+  ibSHSQLGenerator in '..\Components\ibSHSQLGenerator.pas',
+  ibSHStatistic in '..\Components\ibSHStatistic.pas',
+  ibSHData in '..\Components\ibSHData.pas',
+  ibSHPassword in '..\Common\ibSHPassword.pas',
+  ibSHDataBlobFrm in '..\Forms\ibSHDataBlobFrm.pas' {ibSHDataBlobForm},
+  ibSHDataTextFrm in '..\Forms\ibSHDataTextFrm.pas' {ibSHDataTextForm},
+  ibSHDataVCLFrm in '..\Forms\ibSHDataVCLFrm.pas' {ibSHDataVCLForm},
+  ibSHDataReportFrm in '..\Forms\ibSHDataReportFrm.pas' {ibSHDataReportForm},
+  ibSHDataCustomFrm in '..\Forms\ibSHDataCustomFrm.pas',
+  ibSHDataVCLTreeEditors in '..\Editors\ibSHDataVCLTreeEditors.pas',
+  ibBTOpenTemplateFrm in '..\Forms\ibBTOpenTemplateFrm.pas' {OpenTemplateFrm};
+
+end.

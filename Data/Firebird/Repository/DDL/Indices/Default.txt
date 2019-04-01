@@ -1,0 +1,9 @@
+CREATE INDEX {INDEX_NAME}
+ON {TABLE_NAME} (fields...);
+
+/* Syntax ======================================================================
+
+CREATE [UNIQUE] [ASC[ENDING] | DESC[ENDING]] INDEX index
+ON table ( col [, col …]);
+
+============================================================================= */

@@ -1,0 +1,19 @@
+SQLHammer 1.4.1 Community Edition
+
+LICENSE AGREEMENT
+
+SQLHammer Community Edition is distributed as freeware product. This means: 
+
+1. All copyrights to SQLHammer Community Edition are exclusively owned by MetadataForge. 
+
+2. Anyone may use this software during unlimited period under the condition that users refer all functional issues to the development team. 
+
+3. SQLHAMMER COMMUNITY EDITION IS DISTRIBUTED "AS IS". NO WARRANTY OF ANY KIND IS EXPRESSED OR IMPLIED. YOU USE SQLHAMMER COMMUNITY EDITION AT YOUR OWN RISK. THE METADATAFORGE COMPANY WILL NOT BE LIABLE FOR DATA LOSS, DAMAGES, LOSS OF PROFITS OR ANY OTHER KIND OF LOSS WHILE USING OR MISUSING THIS SOFTWARE. 
+
+4. Installing and using SQLHammer Community Edition signifies acceptance of these terms and conditions of the license.
+
+5. If you do not agree with the terms of this license you must remove SQLHammer Community Edition files from your storage devices and cease to use the product.
+
+--
+Copyright (C) 2004-2005 MetadataForge. All rights reserved.
+http://metadataforge.com 

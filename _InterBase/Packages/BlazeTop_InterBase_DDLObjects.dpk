@@ -1,0 +1,64 @@
+package BlazeTop_InterBase_DDLObjects;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'BlazeTop InterBase and Firebird DDL Object Components'}
+{$DESIGNONLY}
+{$IMPLICITBUILD ON}
+
+requires
+  BlazeTop_InterBase_Common,
+  ExtLib_D7;
+
+contains
+  ibSHTable in '..\Components\ibSHTable.pas',
+  ibSHException in '..\Components\ibSHException.pas',
+  ibSHFilter in '..\Components\ibSHFilter.pas',
+  ibSHFunction in '..\Components\ibSHFunction.pas',
+  ibSHGenerator in '..\Components\ibSHGenerator.pas',
+  ibSHProcedure in '..\Components\ibSHProcedure.pas',
+  ibSHRole in '..\Components\ibSHRole.pas',
+  ibSHDomain in '..\Components\ibSHDomain.pas',
+  ibSHTrigger in '..\Components\ibSHTrigger.pas',
+  ibSHView in '..\Components\ibSHView.pas',
+  ibSHDBObjectEditors in '..\Editors\ibSHDBObjectEditors.pas',
+  ibSHFieldsFrm in '..\Forms\ibSHFieldsFrm.pas' {ibSHFieldsForm},
+  ibSHConstraintsFrm in '..\Forms\ibSHConstraintsFrm.pas' {ibBTConstraintsForm},
+  ibSHIndicesFrm in '..\Forms\ibSHIndicesFrm.pas' {ibBTIndicesForm},
+  ibSHTriggersFrm in '..\Forms\ibSHTriggersFrm.pas' {ibBTTriggersForm},
+  ibSHDependenciesFrm in '..\Forms\ibSHDependenciesFrm.pas' {ibBTDependenciesForm},
+  ibSHDBObject in '..\Components\ibSHDBObject.pas',
+  ibSHDDLGenerator in '..\Components\ibSHDDLGenerator.pas',
+  ibSHDDLCompiler in '..\Components\ibSHDDLCompiler.pas',
+  ibSHIndex in '..\Components\ibSHIndex.pas',
+  ibSHShadow in '..\Components\ibSHShadow.pas',
+  ibSHDescriptionFrm in '..\Forms\ibSHDescriptionFrm.pas' {ibBTDescriptionForm},
+  ibSHConstraint in '..\Components\ibSHConstraint.pas',
+  ibSHDependencies in '..\Components\ibSHDependencies.pas',
+  ibSHFieldOrderFrm in '..\Forms\ibSHFieldOrderFrm.pas' {ibSHFieldOrderForm},
+  ibSHFieldDescrFrm in '..\Forms\ibSHFieldDescrFrm.pas' {ibSHFieldDescrForm},
+  ibSHTableObjectFrm in '..\Forms\ibSHTableObjectFrm.pas',
+  ibSHQuery in '..\Components\ibSHQuery.pas',
+  ibSHDBObjectActions in '..\Actions\ibSHDBObjectActions.pas';
+
+end.

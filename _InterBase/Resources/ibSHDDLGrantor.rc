@@ -1,0 +1,13 @@
+TibSHDDLGrantor                      BITMAP "..\Images\GrantWGO.bmp"
+TibSHGrant                           BITMAP "..\Images\Grant.bmp"
+TibSHGrantWGO                        BITMAP "..\Images\GrantWGO.bmp"
+TibSHUser                            BITMAP "..\Images\User.bmp"
+
+
+TibSHDDLGrantorPaletteAction         BITMAP "..\Images\GrantWGO.bmp"
+TibSHDDLGrantorFormAction            BITMAP "..\Images\Form_Privileges.bmp"
+TibSHDDLGrantorToolbarAction_Run     BITMAP "..\Images\Button_Run.bmp"
+TibSHDDLGrantorToolbarAction_Pause   BITMAP "..\Images\Button_Pause.bmp"
+TibSHDDLGrantorToolbarAction_Refresh BITMAP "..\Images\Button_Refresh.bmp"
+
+Form_Privileges                      BITMAP "..\Images\Form_Privileges.bmp"

@@ -1,0 +1,9 @@
+TibSHDDLExtractor                      BITMAP "..\Images\DDLExtractor.bmp"
+
+TibSHDDLExtractorPaletteAction         BITMAP "..\Images\DDLExtractor.bmp"
+TibSHDDLExtractorFormAction            BITMAP "..\Images\Form_DDLText.bmp"
+TibSHDDLExtractorToolbarAction_Run     BITMAP "..\Images\Button_Run.bmp"
+TibSHDDLExtractorToolbarAction_Pause   BITMAP "..\Images\Button_Pause.bmp"
+TibSHDDLExtractorToolbarAction_SaveAs  BITMAP "..\Images\Button_SaveAs.bmp"
+
+Form_Target_Script                     BITMAP "..\Images\Form_DDLText.bmp"

@@ -1,0 +1,33 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = BlazeTop_Common_Design.bpl BlazeTop_Common_Develop.bpl \
+  BlazeTop_Common_DataExport.bpl BlazeTop_Common_Package.bpl BlazeTop32.exe
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+BlazeTop_Common_Design.bpl: Common\Packages\BlazeTop_Common_Design.dpk
+  $(DCC)
+
+BlazeTop_Common_Develop.bpl: Common\Packages\BlazeTop_Common_Develop.dpk
+  $(DCC)
+
+BlazeTop_Common_DataExport.bpl: Common\Packages\BlazeTop_Common_DataExport.dpk
+  $(DCC)
+
+BlazeTop_Common_Package.bpl: Pack\Packages\BlazeTop_Common_Package.dpk
+  $(DCC)
+
+BlazeTop32.exe: Environment\BlazeTop32.dpr
+  $(DCC)
+
+

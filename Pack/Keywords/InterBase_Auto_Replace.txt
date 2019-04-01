@@ -1,0 +1,40 @@
+; { **************************************************************************** }
+; {                                                                              }
+; { SQL HAMMER, Copyright (c) 2004 Metadata Forge                                }
+; { WWW: http://www.metadataforge.com, http://www.sqlhammer.com                  }
+; { Contact: support@sqlhammer.com                                               }
+; {                                                                              }
+; { **************************************************************************** }
+
+; $Id: InterBase_Auto_Replace.txt,v 1.2 2007/01/03 07:28:34 buzz Exp $
+
+[// | SQL HAMMER auto replace]
+--
+
+[(* | SQL HAMMER auto replace]
+/*
+
+[*) | SQL HAMMER auto replace]
+*/
+
+[{ | SQL HAMMER auto replace]
+/*
+
+[} | SQL HAMMER auto replace]
+*\
+
+[<. | SQL HAMMER auto replace]
+<> 
+
+[,> | SQL HAMMER auto replace]
+<> 
+
+[(R) | SQL HAMMER auto replace]
+®
+
+[SELCT | SQL HAMMER auto replace]
+SELECT
+
+[WGERE | SQL HAMMER auto replace]
+WHERE
+

@@ -1,0 +1,19 @@
+SQLHammer 1.5 Enterprise Edition
+
+LICENSE AGREEMENT
+
+SQLHammer Enterprise Edition is distributed as shareware product. This means: 
+
+1. All copyrights to SQLHammer Enterprise Edition are exclusively owned by MetadataForge. 
+
+2. Anyone may use this software for evaluation purposes for a period of 30 days following the initial installation. After this period of time the you must either buy the SQLHammer Enterprise Edition or remove it from his system. 
+
+3. SQLHAMMER ENTERPRISE EDITION IS DISTRIBUTED "AS IS". NO WARRANTY OF ANY KIND IS EXPRESSED OR IMPLIED. YOU USE SQLHAMMER ENTERPRISE EDITION AT YOUR OWN RISK. THE METADATAFORGE COMPANY WILL NOT BE LIABLE FOR DATA LOSS, DAMAGES, LOSS OF PROFITS OR ANY OTHER KIND OF LOSS WHILE USING OR MISUSING THIS SOFTWARE. 
+
+4. Installing and using SQLHammer Enterprise Edition signifies acceptance of these terms and conditions of the license.
+
+5. If you do not agree with the terms of this license you must remove SQLHammer Enterprise Edition files from your storage devices and cease to use the product.
+
+--
+Copyright (C) 2004-2005 MetadataForge. All rights reserved.
+

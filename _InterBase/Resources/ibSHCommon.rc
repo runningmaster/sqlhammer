@@ -1,0 +1,31 @@
+TIBBTBRANCHINFO  BITMAP "..\Images\InterBase.bmp"
+TFBBTBRANCHINFO  BITMAP "..\Images\Firebird.bmp"
+
+TIBBTOPTIONS     BITMAP "..\Images\InterBase.bmp"
+TFBBTOPTIONS     BITMAP "..\Images\Firebird.bmp"
+
+FORM_DATA_GRID      BITMAP "..\Images\Form_Data_Grid.bmp"
+FORM_DATA_TREE      BITMAP "..\Images\Form_Data_VCL.bmp"
+FORM_DATA_BLOB      BITMAP "..\Images\Form_Data_Blob.bmp"
+FORM_DML_TEXT       BITMAP "..\Images\Form_DMLText.bmp"
+FORM_DDL_TEXT       BITMAP "..\Images\Form_DDLText.bmp"
+
+
+TibBTDDLFormAction_Run        BITMAP "..\Images\Button_Run.bmp"
+TibBTDDLFormAction_Commit     BITMAP "..\Images\Button_TrCommit.bmp"
+TibBTDDLFormAction_Rollback   BITMAP "..\Images\Button_TrRollback.bmp"
+TibBTDDLFormAction_Refresh    BITMAP "..\Images\Button_Refresh.bmp"
+TibBTDDLFormAction_ExpandDomains        BITMAP "..\Images\DomainDecoded.bmp"
+
+
+
+TibSHDataGridToolbarAction_Refresh      BITMAP "..\Images\Button_Refresh.bmp"
+TibSHDataGridToolbarAction_Commit       BITMAP "..\Images\Button_TrCommit.bmp"
+TibSHDataGridToolbarAction_Rollback     BITMAP "..\Images\Button_TrRollback.bmp"
+TibSHDataGridToolbarAction_Filter       BITMAP "..\Images\Button_RunFilter.bmp"
+TibSHDataGridToolbarAction_Pause        BITMAP "..\Images\Button_Pause.bmp"
+TibSHDataGridToolbarAction_BackToQuery  BITMAP  "..\Images\Button_Query_Prev.bmp"
+TibSHDataVCLToolbarAction_AutoAdjustNodeHeight BITMAP  "..\Images\Button_AutoAdjustNodeHeight.bmp"
+TibSHDataVCLToolbarAction_NextField     BITMAP "..\Images\Button_Arrow_Down.bmp"
+TibSHDataVCLToolbarAction_PreviousField BITMAP "..\Images\Button_Arrow_Top.bmp"
+

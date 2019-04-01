@@ -1,0 +1,23 @@
+What's new in SQLHammer 1.4?
+
+Legend:
+[!] Important
+[+] New
+[*] Changes
+[-] Fixed error
+
+COMMUNITY_EDITION_1_0
+COMMUNITY_EDITION_1_1
+COMMUNITY_EDITION_1_2
+COMMUNITY_EDITION_1_3
+COMMUNITY_EDITION_1_4
+COMMUNITY_EDITION_1_4_1
+
+---- History of changes ------------------------------------------------------
+
+0.0
+
+
+--
+Copyright (C) 2004-2005 Metadata Forge. All rights reserved.
+http://metadataforge.com 

@@ -1,0 +1,11 @@
+TibSHDMLHistory                       BITMAP "..\Images\DMLHistory.bmp"
+
+TibSHDMLHistoryPaletteAction          BITMAP "..\Images\DMLHistory.bmp"
+TibSHDMLHistoryFormAction             BITMAP "..\Images\Form_DMLText.bmp"
+TibSHDMLHistoryToolbarAction_Run      BITMAP "..\Images\Button_Run.bmp"
+TibSHDMLHistoryToolbarAction_Pause    BITMAP "..\Images\Button_Pause.bmp"
+TibSHDMLHistoryToolbarAction_Region   BITMAP "..\Images\Button_Tree.bmp"
+TibSHDMLHistoryToolbarAction_Refresh  BITMAP "..\Images\Button_Refresh.bmp"
+TibSHDMLHistoryToolbarAction_Save     BITMAP "..\Images\Button_Save.bmp"
+
+Form_DML_Statements                   BITMAP "..\Images\Form_DMLText.bmp"

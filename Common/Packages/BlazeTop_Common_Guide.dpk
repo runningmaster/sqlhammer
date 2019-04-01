@@ -1,0 +1,38 @@
+package BlazeTop_Common_Guide;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'BlazeTop Common Users and Developers Guide Components'}
+{$DESIGNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  BlazeTop_Common_Design,
+  BlazeTop_Common_Develop,
+  vclie;
+
+contains
+  SHGuideFrm in '..\Forms\SHGuideFrm.pas' {SHGuideForm},
+  SHGuide in '..\Components\SHGuide.pas';
+
+end.

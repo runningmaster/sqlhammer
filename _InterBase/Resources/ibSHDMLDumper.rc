@@ -1,0 +1,14 @@
+TibSHDMLDumper                       BITMAP "..\Images\DMLDumper.bmp"
+
+TibSHDMLDumperPaletteAction          BITMAP "..\Images\DMLDumper.bmp"
+TibSHDMLDumperFormAction             BITMAP "..\Images\Form_DDLText.bmp"
+TibSHDMLDumperToolbarAction_Run      BITMAP "..\Images\Button_Run.bmp"
+TibSHDMLDumperToolbarAction_Pause    BITMAP "..\Images\Button_Pause.bmp"
+TibSHDMLDumperToolbarAction_Region   BITMAP "..\Images\Button_Tree.bmp"
+TibSHDMLDumperToolbarAction_Refresh  BITMAP "..\Images\Button_Refresh.bmp"
+TibSHDMLDumperToolbarAction_SaveAs   BITMAP "..\Images\Button_SaveAs.bmp"
+TibSHDMLDumperToolbarAction_CheckAll     BITMAP "..\Images\Button_Check.bmp"
+TibSHDMLDumperToolbarAction_UnCheckAll   BITMAP "..\Images\Button_UnCheck.bmp"
+
+
+Form_Target_Script                   BITMAP "..\Images\Form_DDLText.bmp"

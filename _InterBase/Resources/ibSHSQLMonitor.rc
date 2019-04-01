@@ -1,0 +1,14 @@
+TibSHSQLMonitor                     BITMAP "..\Images\SQLMonitor.bmp"
+TibSHFIBMonitor                     BITMAP "..\Images\SQLMonitorFIB.bmp"
+TibSHIBXMonitor                     BITMAP "..\Images\SQLMonitorIBX.bmp"
+                                   
+TibSHSQLMonitorPaletteAction_FIB    BITMAP "..\Images\SQLMonitorFIB.bmp"
+TibSHSQLMonitorPaletteAction_IBX    BITMAP "..\Images\SQLMonitorIBX.bmp"
+TibSHSQLMonitorFormAction           BITMAP "..\Images\Form_SQLText.bmp"
+TibSHSQLMonitorToolbarAction_Run    BITMAP "..\Images\Button_Run.bmp"
+TibSHSQLMonitorToolbarAction_Pause  BITMAP "..\Images\Button_Pause.bmp"
+TibSHSQLMonitorToolbarAction_Region BITMAP "..\Images\Button_Tree.bmp"
+TibSHSQLMonitorToolbarAction_2App   BITMAP "..\Images\Button_Arrow_Right.bmp"
+
+Form_FIB_Trace                      BITMAP "..\Images\Form_SQLText.bmp"
+Form_IBX_Trace                      BITMAP "..\Images\Form_SQLText.bmp"

@@ -1,0 +1,19 @@
+; { **************************************************************************** }
+; {                                                                              }
+; { SQL HAMMER, Copyright (c) 2004 Metadata Forge                                }
+; { WWW: http://www.metadataforge.com, http://www.sqlhammer.com                  }
+; { Contact: support@sqlhammer.com                                               }
+; {                                                                              }
+; { **************************************************************************** }
+
+; $Id: ibKW.6.txt,v 1.2 2007/01/03 07:28:34 buzz Exp $
+
+[KEYWORDS]
+ROWS=<lower_value> [TO <upper_value>] [BY <step_value>] [PERCENT] [WITH TIES]
+PERCENT=
+TIES=
+SAVEPOINT=
+RELEASE=
+TRUE=
+FALSE=
+UNKNOWN=
